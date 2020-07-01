@@ -1,0 +1,24 @@
+{
+  "name": "chatcord",
+  "version": "1.0.0",
+  "description": "realtime chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "rohan matta",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "moment": "^2.27.0",
+    "morgan": "^1.10.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
